@@ -1,6 +1,6 @@
 #!/bin/bash
 
-XOCE_URL=https://drive.google.com/uc?export=download&confirm=BM4A&id=1YSSpaFsWAoOtCb2J4VOVxsXBabUkd3yE
+XOCE_URL=https://doc-00-7c-docs.googleusercontent.com/docs/securesc/ir2frn62tp2usnmu02s4urgrgncp5d19/bprgmb8ip6ck1uic1m6fu18up8lkqike/1547913600000/06212812642088503023/07875259062291587039/1YSSpaFsWAoOtCb2J4VOVxsXBabUkd3yE?e=download
 
 # Welcome message
 printf "\n\033[1mWelcome to the XOCE auto-deploy script!\033[0m\n\n"
