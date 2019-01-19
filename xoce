@@ -1,6 +1,6 @@
 #!/bin/bash
 
-XOCE_URL=https://doc-00-7c-docs.googleusercontent.com/docs/securesc/ir2frn62tp2usnmu02s4urgrgncp5d19/bprgmb8ip6ck1uic1m6fu18up8lkqike/1547913600000/06212812642088503023/07875259062291587039/1YSSpaFsWAoOtCb2J4VOVxsXBabUkd3yE?e=download
+XOCE_URL=https://uc3fc0e7c2aafdcea60a54db869b.dl.dropboxusercontent.com/cd/0/get/AZsCF-1ggRq7uk7IepmCXK4NASdkyvL-YDEbazuBxG9ZUQc2vVrkUPNiB1lDW1cDdmoafsn84D9MSo7yEn0Qz7ABW3SW2fcOL4cxA8fbNzEe_eOjpBhGYFYT3bCoARbWfByzgWiUl5rvfHM76kanjvV0hkV-UsZDjAW-Ylf70LiH7D3lkss8tV4qrhVdkM3K0G0/file?_download_id=44470062456430996702426281550995225554333998644336307225466583324&_notify_domain=www.dropbox.com&dl=1
 
 # Welcome message
 printf "\n\033[1mWelcome to the XOCE auto-deploy script!\033[0m\n\n"
