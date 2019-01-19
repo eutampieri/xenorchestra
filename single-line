@@ -1,0 +1,1 @@
+bash -c "$(curl -s https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/xoce)"
