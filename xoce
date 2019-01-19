@@ -1,6 +1,6 @@
 #!/bin/bash
 
-XOCE_URL=https://drive.google.com/drive/folders/1R-DdET4Z1NLPpjmb93w1ovNghhpbNMxh?usp=sharing
+XOCE_URL=https://drive.google.com/file/d/1YSSpaFsWAoOtCb2J4VOVxsXBabUkd3yE/view?usp=sharing
 
 # Welcome message
 printf "\n\033[1mWelcome to the XOCE auto-deploy script!\033[0m\n\n"
