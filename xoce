@@ -1,6 +1,6 @@
 #!/bin/bash
 
-XOCE_URL=https://uc3fc0e7c2aafdcea60a54db869b.dl.dropboxusercontent.com/cd/0/get/AZsCF-1ggRq7uk7IepmCXK4NASdkyvL-YDEbazuBxG9ZUQc2vVrkUPNiB1lDW1cDdmoafsn84D9MSo7yEn0Qz7ABW3SW2fcOL4cxA8fbNzEe_eOjpBhGYFYT3bCoARbWfByzgWiUl5rvfHM76kanjvV0hkV-UsZDjAW-Ylf70LiH7D3lkss8tV4qrhVdkM3K0G0/file?_download_id=44470062456430996702426281550995225554333998644336307225466583324&_notify_domain=www.dropbox.com&dl=1
+XOCE_URL=https://sites.google.com/view/xenorchestra-community-edition
 
 # Welcome message
 printf "\n\033[1mWelcome to the XOCE auto-deploy script!\033[0m\n\n"
