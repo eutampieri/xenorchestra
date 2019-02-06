@@ -2,6 +2,8 @@ If you are having issues before you create an issue please check the following. 
 
 # XO Website not loading
 
+If the XO website fails to load please run the below command to determine if the primary service is running. 
+
        systemctl status xo-server.service
        
  A properly running system should look similar to this:
