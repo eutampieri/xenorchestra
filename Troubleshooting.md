@@ -45,5 +45,15 @@ Check your distribution respositories list ie: ```/etc/apt/sources.list``` for m
 * python-minimal 
 * libvhdi-utils 
 * nfs-common
+* lvm2
+* cifs-utils
 
 These dependencies (on Ubuntu) are available from the ```multiverse``` and ```universe``` repositories. 
+
+# System Performance or General Errors Guidance
+
+While XOCE can and does operate without issue for many people there are benefits to using using more than the absolute minimum system specifications for the guest OS. 
+
+There is a mandate for 1 GB of ram built into the installation script. While this is a requirement of XO it isn't a requirement of the OS. 
+
+An additional check is being considered to match the XOA system which is supplied with 2 CPU (or 1 CPU with 2 cores). While this currently isn't implemented if you encounter issues please try adding an additional CPU to your installation and see if the issue persists. 
