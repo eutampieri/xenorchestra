@@ -61,7 +61,7 @@ sed -i "s|#'/' = '/path/to/xo-web/dist/'|'/' = '/opt/xen-orchestra/packages/xo-w
 mkdir -p /usr/local/lib/node_modules/
 
 # Symlink all plugins
-for source in =$(ls -d /opt/xen-orchestra/packages/xo-server-*); do
+for source in $(ls -d /opt/xen-orchestra/packages/xo-server-*); do
     ln -s "$source" /usr/local/lib/node_modules/
 done
 
