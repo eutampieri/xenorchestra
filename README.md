@@ -16,6 +16,10 @@ If you don't want NFS capabilities run ```sudo apt-get remove nfs-common```.
 * Do not use LAMP
 * SSH Access is optional, but highly recommended
 
+# Support Requests
+
+Any issues, questions, or bugs during installation and usage of this script should **first** be addressed in *this repository.* Xen-Orchestra (Community Edition) is not obligated to support scripted (or manual) builds. Please give us the ability to first troubleshoot the issue and/or verify this script is not the culprit before moving on to posting in the Xen-Orchestra [Community Forums](https://xen-orchestra.com/forum/).
+
 # Goals/Backstory for this script
 
 I'm often asked "why can't this be run on CentOS or Fedora" to which my only reply is and has ever been: The goal was to be the XCP-ng of XS. Which means I wanted a solution that offered as much as XOA offers, while using what is available freely and from open sources. Without restrictions. 
