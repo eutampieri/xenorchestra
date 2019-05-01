@@ -46,6 +46,9 @@ ln -s /usr/bin/node /usr/local/bin/node
 
 /usr/bin/git clone -b $xo_branch $xo_server
 
+# Removing the "Built from Source - no support banner
+sed -i '225,235 d' src/xo-app/index.js
+
 # Patch to allow config restore
 sed -i 's/< 5/> 0/g' /opt/xen-orchestra/packages/xo-web/src/xo-app/settings/config/index.js
 
