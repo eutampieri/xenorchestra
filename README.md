@@ -18,7 +18,7 @@ If you don't want NFS capabilities run ```sudo apt-get remove nfs-common```.
 
 # Problems?
 
-Check out our [Troubleshooting Page](https://github.com/Jarli01/xenorchestra_installer/blob/master/TROUBLESHOOTING.md)!
+Check out our [Troubleshooting Page](https://github.com/FoxieHazmat/xenorchestra_installer/blob/master/TROUBLESHOOTING.md)!
 
 # Goals/Backstory for this script
 
