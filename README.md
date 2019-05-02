@@ -16,9 +16,9 @@ If you don't want NFS capabilities run ```sudo apt-get remove nfs-common```.
 * Do not use LAMP
 * SSH Access is optional, but highly recommended
 
-# Support Requests
+# Problems?
 
-Any issues, questions, or bugs during installation and usage of this script should **first** be addressed in *this repository.* Xen-Orchestra (Community Edition) is not obligated to support scripted (or manual) builds. Please give us the ability to first troubleshoot the issue and/or verify this script is not the culprit before moving on to posting in the Xen-Orchestra [Community Forums](https://xen-orchestra.com/forum/).
+Check out our [Troubleshooting Page](https://github.com/Jarli01/xenorchestra_installer/blob/master/TROUBLESHOOTING.md)!
 
 # Goals/Backstory for this script
 
