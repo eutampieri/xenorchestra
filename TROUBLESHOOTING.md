@@ -8,7 +8,7 @@ Any issues, questions, or bugs during installation and usage of this script, tha
 
 Xen-Orchestra (Community Edition) is not obligated to support scripted (or manual) builds. Please give us the ability to first troubleshoot the issue and/or verify this script is not the culprit before moving on to posting in the Xen-Orchestra [Community Forums](https://xen-orchestra.com/forum/).
 
-Please use the [ISSUE TEMPLATE](https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/ISSUE_TEMPLATE.md) when submitting an issue.
+Please use the [ISSUE TEMPLATE](https://github.com/FoxieHazmat/xenorchestra_installer/blob/master/ISSUE_TEMPLATE.md) when submitting an issue.
 
 ## XO Website not loading
 
