@@ -22,7 +22,7 @@ xo_service="xo-server.service"
 
 # Ensure that git and curl are installed
 /usr/bin/apt-get update
-/usr/bin/apt-get --yes install git curl
+/usr/bin/apt-get --yes install git curl apt-transport-https
 
 #Install yarn
 cd /opt
