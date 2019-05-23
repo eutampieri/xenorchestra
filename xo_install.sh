@@ -22,7 +22,7 @@ xo_service="xo-server.service"
 
 # Ensure that git and curl are installed
 /usr/bin/apt-get update
-/usr/bin/apt-get --yes install git curl apt-transport-https
+/usr/bin/apt-get --yes install git curl
 
 #Install yarn
 cd /opt
@@ -44,7 +44,7 @@ n 8.16
 ln -s /usr/bin/node /usr/local/bin/node
 
 # Install XO dependencies
-/usr/bin/apt-get install --yes build-essential redis-server libpng-dev git python-minimal libvhdi-utils nfs-common lvm2 cifs-utils
+/usr/bin/apt-get install --yes build-essential redis-server libpng-dev git python-minimal libvhdi-utils nfs-common lvm2 cifs-utils apt-transport-https
 
 /usr/bin/git clone -b $xo_branch $xo_server
 
