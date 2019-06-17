@@ -8,7 +8,7 @@ assignees: ''
 ---
 
 **Describe the bug**
-A clear and concise description of what the bug is.
+A clear and concise description of what the trouble is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
@@ -41,7 +41,8 @@ Please run ```journalctl -u xo-server -f -n 50``` and paste the resulting output
 * Is this a fresh install or an upgrade?
 * Version of XOCE server and web interface you're running
 * What OS is XOCE running on?
-* What method you used to install XOCE (xo_install.sh, manual installation, etc)
+* A link to the ISO you've used as as the server (so we can verify/troubleshoot)
+* What method did you use to install XOCE (xo_install.sh, manual installation, etc)
 * What specific XOCE page you're on, and what specific element you're interacting with to trigger the error
 * If a stacktrace is provided in the error, include that too.
 * Any errors that appear in your browser's error console.
