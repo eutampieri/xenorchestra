@@ -16,6 +16,10 @@ If you don't want NFS capabilities run ```sudo apt-get remove nfs-common```.
 * Do not use LAMP
 * SSH Access is optional, but highly recommended
 
+# Declaration
+
+This script automates the manual process which can be [found here](https://xen-orchestra.com/docs/from_the_sources.html) as well as removes a few feature restrictions that otherwise would need to be changed manually if following the manual installation process. This script is not officially supported by the Vates team, but is supported by this community. 
+
 # Problems?
 
 Check out our [Troubleshooting Page](https://github.com/Jarli01/xenorchestra_installer/blob/master/TROUBLESHOOTING.md)!
