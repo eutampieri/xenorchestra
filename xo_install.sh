@@ -48,9 +48,6 @@ ln -s /usr/bin/node /usr/local/bin/node
 
 /usr/bin/git clone -b $xo_branch $xo_server
 
-# Patch to allow config restore
-sed -i 's/< 5/> 0/g' /opt/xen-orchestra/packages/xo-web/src/xo-app/settings/config/index.js
-
 cd $xo_server_dir
 /usr/bin/yarn
 /usr/bin/yarn build
