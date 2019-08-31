@@ -54,7 +54,6 @@ cd $xo_server_dir
 
 cd packages/xo-server
 cp sample.config.toml .xo-server.toml
-sed -i "s|#'/' = '/path/to/xo-web/dist/'|'/' = '/opt/xen-orchestra/packages/xo-web/dist'|" .xo-server.toml
 
 #Create node_modules directory if doesn't exist
 mkdir -p /usr/local/lib/node_modules/
