@@ -28,7 +28,7 @@ I'm often asked "why can't this be run on CentOS or Fedora" to which my only rep
 
 That isn't to say that this installation script won't work on other distributions, please contribute and help us to spread XOCE to other platforms. 
 
-Initially my goal was to simply setup and start using XOCE for a tiny production shop to be able to use an open source hypervisor (Citrix XenServer at the time) and have a management tool/backup solution. Which was initially [NAUBackup](https://github.com/NAUbackup/VmBackup) and XenCenter, when I found XOA and that there was an open source management solution and backup solution that wasn't script based I jumped for it, taking the manuall installation process provided by Olivier and his team and automating it. 
+Initially my goal was to simply setup and start using XOCE for a tiny production shop to be able to use an open source hypervisor (Citrix XenServer at the time) and have a management tool/backup solution. Which was initially [NAUBackup](https://github.com/NAUbackup/VmBackup) and XenCenter, when I found XOA and that there was an open source management solution and backup solution that wasn't script based I jumped for it, taking the manual installation process provided by Olivier and his team and automating it. 
 
 That goal transformed into the desire to assist the developers of XOA by using and hopefully finding any bugs or quirks that needed to be worked out while staying in line with the original goal of being as nearly compatibile as possible to XOA.
 
