@@ -22,7 +22,7 @@ xo_service="xo-server.service"
 
 # Ensures that Yarn dependencies are installed
 /usr/bin/apt-get update
-/usr/bin/apt-get --yes install git curl apt-transport-https gnupg python2-minimal
+/usr/bin/apt-get --yes install git curl apt-transport-https gnupg
 
 #Install yarn
 cd /opt
@@ -43,7 +43,7 @@ n lts
 ln -s /usr/bin/node /usr/local/bin/node
 
 # Install XO dependencies
-/usr/bin/apt-get install --yes build-essential redis-server libpng-dev git python-minimal libvhdi-utils nfs-common lvm2 cifs-utils 
+/usr/bin/apt-get install --yes build-essential redis-server libpng-dev git python-minimal libvhdi-utils nfs-common lvm2 cifs-utils python2-minimal
 
 /usr/bin/git clone -b $xo_branch $xo_server
 
