@@ -22,7 +22,7 @@ xo_service="xo-server.service"
 
 # Ensures that Yarn dependencies are installed
 /usr/bin/apt-get update
-/usr/bin/apt-get --yes install git curl apt-transport-https gnupg
+/usr/bin/apt-get --yes install git curl apt-transport-https gnupg python2-minimal
 
 #Install yarn
 cd /opt
