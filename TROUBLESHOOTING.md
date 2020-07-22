@@ -6,7 +6,7 @@ If you are having problems, before you create an issue, please check the followi
 
 Any issues, questions, or bugs during installation and usage of this script, that can not be solved by the steps below, should **first** be addressed in *this repository.* 
 
-Xen-Orchestra (Community Edition) is not obligated to support scripted (or manual) builds. Please give us the ability to first troubleshoot the issue and/or verify this script is not the culprit before moving on to posting in the Xen-Orchestra [Community Forums](https://xen-orchestra.com/forum/).
+Xen-Orchestra (VatesFR) is not obligated to support scripted (or manual) builds. Please give us the ability to first troubleshoot the issue and/or verify this script is not the culprit before moving on to posting in the Xen-Orchestra [Community Forums](https://xen-orchestra.com/forum/).
 
 Please use the [ISSUE TEMPLATE](https://github.com/Jarli01/xenorchestra_installer/issues/new) when submitting an issue.
 
