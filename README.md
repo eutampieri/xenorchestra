@@ -2,11 +2,17 @@
 
 Xen-Orchestra (Community Edition) allows you to administer Citrix Hypervisor (aka XenServer) and XCP-ng as well as backup any VM's running on these systems. 
 
-## System Requirements
+## System Minimum Requirements
+
+* 1 vCPU
+* 3 GiB RAM
+* 10 GiB disk space
+
+## System Recommendations
 
 * 2 vCPU recommended 
-* 3 GiB of RAM (build dependency)
-* 10 GiB disk space minimum recommended 
+* 3 GiB of RAM
+* 20 GiB disk space (for package and system updates)
 
 ## Assumptions
 
