@@ -1,24 +1,23 @@
 # Xen-Orchestra (Community Edition) Installer
 
-Xen-Orchestra (Community Edition) allows you to administer Citrix Hypervisor (aka XenServer) and XCP-ng as well as backup any VM's running on these systems. 
+Xen-Orchestra (Community Edition) allows you to administer Citrix Hypervisor (aka XenServer) and XCP-ng as well as backup any VM's running on these systems. The single line installation script allows you to go from a bare-minimal installation of [Ubuntu](https://ubuntu.com/download/server) or [Debian (Server)](https://www.debian.org/distrib/netinst) to fully operational XOCE server.
 
-## System Minimum Requirements
+## System Minimum Requirements for installation
 
 * 1 vCPU
 * 3 GiB RAM
 * 10 GiB disk space
 
-## System Recommendations
+## System Recommendations for operation
 
 * 2 vCPU recommended 
-* 3 GiB of RAM
-* 20 GiB disk space (for package and system updates)
+* 3 GiB of RAM (for environments containing 500+ VMs increase the XOCE RAM)
+* 20 GiB disk space (for system updates)
 
 ## Assumptions
 
-* We assume you have a Virtual or physical server running a currently supported Ubuntu or Debian server installation with internet connectivity.
+* We assume you have a Virtual or physical server running a currently supported Ubuntu or Debian server installation with internet connectivity
 * You've read this community and understand what installation entails and does on your soon to be XOCE server
-* The single line installation script allows you to go from a bare-minimal installation of [Ubuntu](https://ubuntu.com/download/server) or [Debian (Server)](https://www.debian.org/distrib/netinst) to fully operational XOCE server. 
 
 ## Installation
  
