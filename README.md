@@ -48,6 +48,9 @@ SHA256 Checksum '0ae7e283518f9b12b9a3756c58fbf357aea852df062be842adbb45eb1e42dce
 For verification of SHA256 checksum the XVA file can be downloaded directly and verified/imported. 
 XVA Direct Download https://srv-file19.gofile.io/download/Kt6nJu/20200722T183158Z%20-%20XOCE.xva
 
+Local User: XOCE
+Password: XOCE
+
 # Self-signed SSL 
 
 If you are running this internally and need SSL (recommended) follow the below steps to create a self-signed SSL key and certificate; while browsers will still say the connection is unsecured, this is because the certificate isn't from a public authority and is on your LAN. Alternatively a reverse proxy can be used for public facing installations.  
