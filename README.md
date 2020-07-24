@@ -43,10 +43,11 @@ To download and deploy a prepacked Ubuntu 20.04 installation of Xen Orchestra (C
 
     bash -c "$(curl -s https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/xoce)"
 
-SHA256 Checksum '0ae7e283518f9b12b9a3756c58fbf357aea852df062be842adbb45eb1e42dcec'
+MD5	Checksum `5db537c4b6388a4323583357b6e13d20`
+SHA256 Checksum `f279f04593c0e7a000f950ccda800b1a2188d665e535c1b3f995c87a38bea836`
 
 For verification of SHA256 checksum the XVA file can be downloaded directly and verified/imported. 
-XVA Direct Download https://srv-file19.gofile.io/download/Kt6nJu/20200722T183158Z%20-%20XOCE.xva
+XVA Direct Download https://srv-file8.gofile.io/download/CYaI0l/XOCE.xva
 
 To login to the console use:
 Username: **XOCE**
