@@ -49,7 +49,7 @@ For verification of SHA256 checksum the XVA file can be downloaded directly and 
 XVA Direct Download https://srv-file19.gofile.io/download/Kt6nJu/20200722T183158Z%20-%20XOCE.xva
 
 To login to the console use:
-Local User: **XOCE**
+Username: **XOCE**
 Password: **XOCE**
 
 # Self-signed SSL 
