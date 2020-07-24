@@ -31,7 +31,7 @@ XVA Direct Download https://srv-file19.gofile.io/download/Kt6nJu/20200722T183158
 
 # Self-signed SSL 
 
-If you are running this internally (on a secured LAN and need SSL (recommended) follow the below steps to create a self-signed SSL key and certificate. 
+If you are running this internally and need SSL (recommended) follow the below steps to create a self-signed SSL key and certificate; while browsers will still say the connection is unsecured, this is because the certificate isn't from a public authority and is on your LAN. Alternatively a reverse proxy can be used for public facing installations.  
 
 ## Generate your key and cert
 
@@ -41,7 +41,7 @@ Now edit the xo-server.toml file
 
     vi /opt/xen-orchestra/packages/xo-server/.xo-server.toml
     
-Comment or edit the port from 80 to 443 and add the cert and key to the appropriate locations
+Comment-out or edit the port from 80 to 443 and add the cert and key to the appropriate locations within this file.
     
     port = 443
     cert = '/etc/ssl/certs/certificate.pem'
