@@ -29,6 +29,30 @@ SHA256 Checksum "0ae7e283518f9b12b9a3756c58fbf357aea852df062be842adbb45eb1e42dce
 For verification of SHA256 checksum the XVA file can be downloaded directly and verified/imported. 
 XVA Direct Download https://srv-file19.gofile.io/download/Kt6nJu/20200722T183158Z%20-%20XOCE.xva
 
+# Self-signed SSL 
+
+If you are running this internally (on a secured LAN and need SSL (recommended) follow the below steps to create a self-signed SSL key and certificate. 
+
+## Generate your key and cert
+
+    sudo openssl req -x509 -nodes -days 3650 -newkey rsa:4096 -keyout /etc/ssl/private/key.pem -out /etc/ssl/certs/certificate.pem
+    
+Now edit the xo-server.toml file
+
+    vi /opt/xen-orchestra/packages/xo-server/.xo-server.toml
+    
+Comment or edit the port from 80 to 443 and add the cert and key to the appropriate locations
+    
+    port = 443
+    cert = '/etc/ssl/certs/certificate.pem'
+    key = '/etc/ssl/private/key.pem'
+    
+Restart xo-server.service
+
+    systemctl restart xo-server.service
+
+Reload your XOCE website using SSL (https://your-host-ip)
+
 # Problems?
 
 Check out our [Troubleshooting Page](https://github.com/Jarli01/xenorchestra_installer/blob/master/TROUBLESHOOTING.md)!
