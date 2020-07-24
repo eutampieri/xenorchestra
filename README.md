@@ -18,6 +18,41 @@ If you don't want NFS capabilities run ```sudo apt-get remove nfs-common```.
 
 This script automates the manual process which can be [found here](https://xen-orchestra.com/docs/from_the_sources.html) as well as removes a few feature restrictions that otherwise would need to be changed manually if following the manual installation process. This script is not officially supported by the Vates team, but is supported by this community. 
 
+# Prepacked Installation option
+
+To download and deploy a prepacked Ubuntu 20.04 installation of Xen Orchestra (CE) run the below from an SSH session on your XCP-NG/Citrix Hypervisor (XenServer) host(s)
+
+    bash -c "$(curl -s https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/xoce)"
+
+SHA256 Checksum "0ae7e283518f9b12b9a3756c58fbf357aea852df062be842adbb45eb1e42dcec"
+
+For verification of SHA256 checksum the XVA file can be downloaded directly and verified/imported. 
+XVA Direct Download https://srv-file19.gofile.io/download/Kt6nJu/20200722T183158Z%20-%20XOCE.xva
+
+# Self-signed SSL 
+
+If you are running this internally and need SSL (recommended) follow the below steps to create a self-signed SSL key and certificate; while browsers will still say the connection is unsecured, this is because the certificate isn't from a public authority and is on your LAN. Alternatively a reverse proxy can be used for public facing installations.  
+
+## Generate your key and cert
+
+    sudo openssl req -x509 -nodes -days 3650 -newkey rsa:4096 -keyout /etc/ssl/private/key.pem -out /etc/ssl/certs/certificate.pem
+    
+Now edit the xo-server.toml file
+
+    vi /opt/xen-orchestra/packages/xo-server/.xo-server.toml
+    
+Comment-out or edit the port from 80 to 443 and add the cert and key to the appropriate locations within this file.
+    
+    port = 443
+    cert = '/etc/ssl/certs/certificate.pem'
+    key = '/etc/ssl/private/key.pem'
+    
+Restart xo-server.service
+
+    systemctl restart xo-server.service
+
+Reload your XOCE website using SSL (https://your-host-ip)
+
 # Problems?
 
 Check out our [Troubleshooting Page](https://github.com/Jarli01/xenorchestra_installer/blob/master/TROUBLESHOOTING.md)!
