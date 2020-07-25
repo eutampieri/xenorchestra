@@ -47,15 +47,18 @@ MD5	Checksum `5db537c4b6388a4323583357b6e13d20`
 SHA256 Checksum `f279f04593c0e7a000f950ccda800b1a2188d665e535c1b3f995c87a38bea836`
 
 For verification of SHA256 checksum the XVA file can be downloaded directly and verified/imported. 
-XVA Direct Download https://srv-file8.gofile.io/download/CYaI0l/XOCE.xva
+
+Direct Download https://srv-file8.gofile.io/download/CYaI0l/XOCE.xva
 
 To login to the console use:
 Username: **XOCE**
 Password: **XOCE**
 
+**Change the password if you are using this in production**
+
 # Self-signed SSL 
 
-If you are running this internally and need SSL (recommended) follow the below steps to create a self-signed SSL key and certificate; while browsers will still say the connection is unsecured, this is because the certificate isn't from a public authority and is on your LAN. Alternatively a reverse proxy can be used for public facing installations.  
+If you are running this internally and need SSL (recommended) follow the below steps to create a self-signed SSL key and certificate; while browsers will still say the connection is unsecured, this is because the certificate isn't from a public authority and is on your LAN. You can add this cert to your systems root authority if it want to to remove the warning. Alternatively a reverse proxy can be used for public facing installations.  
 
 ## Generate your key and cert from your XOCE installation
 
