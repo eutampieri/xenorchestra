@@ -41,7 +41,7 @@ This script automates the manual process which can be [found here](https://xen-o
 
 To download and deploy a prepacked Ubuntu 20.04 installation of Xen Orchestra (CE) run the below from an SSH session on your XCP-NG/Citrix Hypervisor (XenServer) host(s)
 
-    bash -c "$(curl -s https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/xoce)"
+    bash -c "$(curl -s https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/xoce-import.sh)"
 
 MD5	Checksum `5db537c4b6388a4323583357b6e13d20`
 SHA256 Checksum `f279f04593c0e7a000f950ccda800b1a2188d665e535c1b3f995c87a38bea836`
