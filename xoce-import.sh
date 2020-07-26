@@ -1,6 +1,6 @@
 #!/bin/bash
 
-XOCE_URL=https://srv-file8.gofile.io/download/CYaI0l/XOCE.xva
+XOCE_URL=https://nc.nl.tab.digital/s/GoQx6xJQQy3GXnA/download
 
 # Welcome message
 printf "\n\033[1mWelcome to the XOCE auto-deploy script!\033[0m\n\n"
