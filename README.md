@@ -38,6 +38,7 @@ If you don't want NFS capabilities run ```sudo apt-get remove nfs-common```.
 This script automates the manual process which can be [found here](https://xen-orchestra.com/docs/from_the_sources.html) as well as removes a few feature restrictions that otherwise would need to be changed manually if following the manual installation process. This script is not officially supported by the Vates team, but is supported by this community. 
 
 # Prepacked installation
+* *This is a very small installation and while it will operate, it may not meet all of your requirements, use at your own discretion* 
 
 To download and deploy a prepacked Ubuntu 20.04 installation of Xen Orchestra (CE) run the below from an SSH session on your XCP-NG/Citrix Hypervisor (XenServer) host(s)
 
