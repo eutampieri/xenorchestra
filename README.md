@@ -44,7 +44,7 @@ To download and deploy a prepacked Ubuntu 20.04 installation of Xen Orchestra (C
     bash -c "$(curl -s https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/xoce-import.sh)"
 
 MD5	Checksum `5db537c4b6388a4323583357b6e13d20`
-SHA256 Checksum `f279f04593c0e7a000f950ccda800b1a2188d665e535c1b3f995c87a38bea836`
+SHA256 Checksum `c487d63f2eef67fcaf0e9c4e4998d4a3948fdad960cb1af5a70fcb80b07c2551`
 
 For verification of SHA256 checksum the XVA file can be downloaded directly and verified/imported. 
 
