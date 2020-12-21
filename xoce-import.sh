@@ -10,7 +10,7 @@ then
   echo
   echo 'Sorry, the xe command is required for this auto-deploy.'
   echo
-  echo 'Please, make sure you are on a XenServer host.'
+  echo 'Please, make sure you are on a XCP-ng/XenServer host.'
   echo
   exit 1
 fi
@@ -18,8 +18,8 @@ fi
 # Basic check: are we on a XS host?
 if grep -Fxq "XenServer" /etc/issue
 then
-  printf "\nSorry, it seems you are not on a XenServer (XCP-ng) host.\n\n"
-  printf "\n\033[1mThis script is meant to be deployed on XenServer (or XCP-ng) only.\033[0m\n\n"
+  printf "\nSorry, it seems you are not on a XCP-ng/XenServer host.\n\n"
+  printf "\n\033[1mThis script is meant to be deployed on XCP-ng or XenServer only.\033[0m\n\n"
   exit 1
 fi
 
@@ -36,7 +36,7 @@ then
   read -p "dns? [8.8.8.8] " dns
   dns=${dns:-8.8.8.8}
 else
-  printf "\nYour XOCE will be started using DHCP\n\n"
+  printf "\nYour XOCE installation will be started using DHCP\n\n"
 fi
 
 # Downloading and importing the VM
@@ -56,7 +56,7 @@ fi
 import=$?
 if [ $import -ne 0 ]
 then
-  printf "\n\nAuto deploy failed. Please contact us on xen-orchestra.com live chat for assistance.\nError:\n\n %s\n\n" "$uuid"
+  printf "\n\nAuto deploy failed. Please contact us on https://github.com/Jarli01/xenorchestra_installer/issues for assistance.\nError:\n\n %s\n\n" "$uuid"
   exit 0
 fi
 
@@ -75,7 +75,7 @@ sleep 2
 
 # Waiting for the VM IP from Xen tools for 60 secs
 
-printf "Waiting for your XOCE to be ready…\n"
+printf "Waiting for XOCE to be ready…\n"
 url=$(xe vm-param-get uuid=$uuid param-name=networks param-key=0/ip 2> /dev/null)
 wait=0
 limit=60
@@ -95,7 +95,7 @@ done
 
 if [ "$ip" != 'dhcp' ]
 then
-  printf "\n\033[1mYour XOCE is ready on https://%s/\033[0m\n" "$ip"
+  printf "\n\033[1mYour XOCE is ready at https://%s/\033[0m\n" "$ip"
   # clean the xenstore data
   xe vm-param-remove param-name=xenstore-data param-key=vm-data/dns param-key=vm-data/ip param-key=vm-data/netmask param-key=vm-data/gateway uuid=$uuid
 
@@ -105,7 +105,7 @@ elif [ -z "$url" ]
 then
   printf "\n\033[1mYour XOCE booted but we couldn't fetch its IP address\033[0m\n"
 else
-  printf "\n\033[1mYour XOCE is ready on https://%s/\033[0m\n" "$url"
+  printf "\n\033[1mYour XOCE is ready at https://%s/\033[0m\n" "$url"
 fi
 printf "\nDefault UI credentials: admin@admin.net/admin\nDefault console credentials: xoce/xoce\n"
 printf "\nVM UUID: %s\n\n" "$uuid"
