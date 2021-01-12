@@ -33,6 +33,10 @@ If you don't want NFS capabilities run ```sudo apt-get remove nfs-common```.
 * Do not use LAMP
 * SSH Access is optional, but highly recommended
 
+## Updating XOCE
+
+To maintain your installation from Source or from this repo. (either prepackaged or scripted installation) we recommend using the update script which this community maintains. This can be [found here]{https://github.com/Jarli01/xenorchestra_updater} and doesn't require you to download or install a separate package to your XOCE installation. Simply run it via shell session of your XOCE host.
+
 # Declarations
 
 This script automates the manual process which can be [found here](https://xen-orchestra.com/docs/from_the_sources.html) as well as removes a few feature restrictions that otherwise would need to be changed manually if following the manual installation process. This script is not officially supported by the Vates team, but is supported by this community. 
