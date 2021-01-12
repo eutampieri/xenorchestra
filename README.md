@@ -35,7 +35,7 @@ If you don't want NFS capabilities run ```sudo apt-get remove nfs-common```.
 
 ## Updates
 
-To maintain your installation from Source or from this repo. (either prepackaged or scripted installation) we recommend using the update script which this community maintains. This can be [found here]{https://github.com/Jarli01/xenorchestra_updater} and doesn't require you to download or install a separate package to your XOCE installation. Simply run it via shell session of your XOCE host.
+To maintain your installation from Source or from this repo. (either prepackaged or scripted installation) we recommend using the update script which this community maintains. This can be [found here](https://github.com/Jarli01/xenorchestra_updater) and doesn't require you to download or install a separate package to your XOCE installation. Simply run it via shell session of your XOCE host.
 
 # Declarations
 
