@@ -1,6 +1,6 @@
 #!/bin/bash
 
-XOCE_URL=https://nc.nl.tab.digital/s/5tKYF9AyLjowm3E/download
+XOCE_URL=https://nc.nl.tab.digital/s/WQmCwmH4e9EdTTA/download
 
 # Welcome message
 printf "\n\033[1mWelcome to the XOCE auto-deploy script!\033[0m\n\n"
