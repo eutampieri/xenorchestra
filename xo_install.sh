@@ -71,7 +71,9 @@ for source in $(ls -d /opt/xen-orchestra/packages/xo-server-*); do
     fi
 done
 
-if [[ ! -e $systemd_service_dir/$xo_service ]] ; then
+if [[ -e $systemd_service_dir/$xo_service ]] ; then
+  rm $systemd_service_dir/$xo_service
+fi
 
 /bin/cat << EOF >> $systemd_service_dir/$xo_service
 # Systemd service for XO-Server.
@@ -90,7 +92,7 @@ SyslogIdentifier=xo-server
 [Install]
 WantedBy=multi-user.target
 EOF
-fi
+
 
 /bin/systemctl daemon-reload
 /bin/systemctl enable $xo_service
