@@ -23,8 +23,8 @@ Xen-Orchestra (Community Edition) allows you to administer Citrix Hypervisor (ak
  
 Run the following steps from a root shell on your **Ubuntu or Debian** host.
 
-    curl https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/xo_install.sh | sudo bash
-    <password>
+	sudo bash
+	bash -c "$(curl https://raw.githubusercontent.com/Jarli01/xenorchestra_installer/master/xo_install.sh)"
     
 The default username and password are applied, admin@admin.net and admin for the password
 
