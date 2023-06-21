@@ -11,8 +11,7 @@ cd /opt
 /usr/bin/git clone -b $xo_branch $xo_server
 
 cd $xo_server_dir
-/usr/bin/yarn
-/usr/bin/yarn build
+yarn build
 
 cd packages/xo-server
 cp sample.config.toml .xo-server.toml
