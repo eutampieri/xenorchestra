@@ -9,5 +9,5 @@ RUN /usr/bin/apt-get install --yes build-essential redis-server libpng-dev git p
 RUN bash /xo_install_2_xo.sh
 
 WORKDIR /opt/xen-orchestra/packages/xo-server/
-CMD redis-server&; /usr/local/bin/node ./dist/cli.mjs
+CMD bash /xo_start.sh
 EXPOSE 80
