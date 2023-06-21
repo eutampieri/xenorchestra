@@ -11,6 +11,7 @@ cd /opt
 /usr/bin/git clone -b $xo_branch $xo_server
 
 cd $xo_server_dir
+yarn
 yarn build
 
 cd packages/xo-server
